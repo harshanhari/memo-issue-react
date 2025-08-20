@@ -3,9 +3,9 @@ import Button from './fields/Button.jsx'
 
 export default function ActionsBar({ actions=[] }){
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="card flex flex-wrap gap-2">
       {actions.map((a, i) => (
-        <Button key={i} text={a} kind={i===0 ? 'accent' : 'default'} />
+        <Button key={i} text={a} className="border-2 border-orange-500" />
       ))}
     </div>
   )

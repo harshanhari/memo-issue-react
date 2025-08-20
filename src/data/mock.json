@@ -280,12 +280,6 @@
     ]
   },
   "actions": [
-    "Save",
-    "Search",
-    "Edit",
-    "Delete",
-    "Cancel",
-    "Print",
     "Print DC",
     "Print MDC",
     "Exit",
