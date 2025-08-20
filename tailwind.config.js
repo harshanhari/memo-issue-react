@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+export default {darkMode:'class',content:['./index.html','./src/**/*.{js,jsx}'],theme:{extend:{colors:{accent:{50:'#fff7ed',100:'#ffedd5',200:'#fed7aa',300:'#fdba74',400:'#fb923c',500:'#f97316',600:'#ea580c',700:'#c2410c',800:'#9a3412',900:'#7c2d12',950:'#431407'}} ,boxShadow:{soft:'0 10px 30px rgba(0,0,0,0.25)'},borderRadius:{'2xl':'1rem','3xl':'1.25rem'}}},plugins:[]}

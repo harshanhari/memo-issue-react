@@ -1,0 +1,517 @@
+{
+  "status": {
+    "columns": [
+      {
+        "key": "slno",
+        "label": "SlNo",
+        "minWidth": 70
+      },
+      {
+        "key": "qualityName",
+        "label": "Quality Name"
+      },
+      {
+        "key": "description",
+        "label": "Description"
+      },
+      {
+        "key": "certParcelNo",
+        "label": "Cer./Parcel No"
+      },
+      {
+        "key": "for",
+        "label": "For"
+      },
+      {
+        "key": "size",
+        "label": "Size"
+      },
+      {
+        "key": "carat",
+        "label": "Carat"
+      },
+      {
+        "key": "rate",
+        "label": "Rate"
+      },
+      {
+        "key": "amount",
+        "label": "Amount"
+      },
+      {
+        "key": "salesCarat",
+        "label": "Sales Carat"
+      },
+      {
+        "key": "returnCarat",
+        "label": "Return Carat"
+      },
+      {
+        "key": "balanceCarat",
+        "label": "Balance Carat"
+      },
+      {
+        "key": "primaryKeyHeader",
+        "label": "Primary Key Header"
+      },
+      {
+        "key": "primaryKey",
+        "label": "Primary Key"
+      },
+      {
+        "key": "aed",
+        "label": "AED"
+      },
+      {
+        "key": "qualityId",
+        "label": "QualityId"
+      },
+      {
+        "key": "certifiedNo",
+        "label": "CertifiedNo"
+      },
+      {
+        "key": "certifiedNum",
+        "label": "CertifiedNum"
+      },
+      {
+        "key": "expRejPct",
+        "label": "Exp.Rej%"
+      },
+      {
+        "key": "sizeRtn",
+        "label": "Size Rtn"
+      },
+      {
+        "key": "rejRtn",
+        "label": "Rej Rtn"
+      },
+      {
+        "key": "rejPct",
+        "label": "Rej%"
+      },
+      {
+        "key": "pcs",
+        "label": "Pcs"
+      },
+      {
+        "key": "remark",
+        "label": "Remark"
+      },
+      {
+        "key": "certType",
+        "label": "Cert.Type"
+      }
+    ],
+    "rows": [
+      {
+        "slno": 1,
+        "qualityName": "VVS1",
+        "description": "Round Brilliant",
+        "certParcelNo": "GIA123",
+        "for": "Sale",
+        "size": "1.0",
+        "carat": 0.75,
+        "rate": 2500,
+        "amount": 1875,
+        "salesCarat": 0.65,
+        "returnCarat": 0.05,
+        "balanceCarat": 0.05,
+        "primaryKeyHeader": "HDR001",
+        "primaryKey": "KEY001",
+        "aed": 6890,
+        "qualityId": "Q01",
+        "certifiedNo": "C-1001",
+        "certifiedNum": "1001",
+        "expRejPct": 1.5,
+        "sizeRtn": 0.01,
+        "rejRtn": 0.0,
+        "rejPct": 0.0,
+        "pcs": 1,
+        "remark": "OK",
+        "certType": "GIA"
+      }
+    ]
+  },
+  "advancedSearch": {
+    "columns": [
+      {
+        "key": "date",
+        "label": "Date"
+      },
+      {
+        "key": "customer",
+        "label": "Customer"
+      },
+      {
+        "key": "memoNo",
+        "label": "Memo No"
+      },
+      {
+        "key": "carats",
+        "label": "Carats"
+      },
+      {
+        "key": "amount",
+        "label": "Amount"
+      },
+      {
+        "key": "amount2",
+        "label": "Amount"
+      }
+    ],
+    "rows": [
+      {
+        "date": "2025-08-01",
+        "customer": "ABC Gems",
+        "memoNo": "MI/2025/001",
+        "carats": 1.4,
+        "amount": 3500,
+        "amount2": 3500
+      }
+    ]
+  },
+  "jewelry": {
+    "columns": [
+      {
+        "key": "slno",
+        "label": "SlNo"
+      },
+      {
+        "key": "primKey",
+        "label": "PrimKey"
+      },
+      {
+        "key": "slashNo",
+        "label": "SlashNo"
+      },
+      {
+        "key": "slashNoCmb",
+        "label": "SlashNoCmb"
+      },
+      {
+        "key": "pieces",
+        "label": "Pieces"
+      },
+      {
+        "key": "rate",
+        "label": "Rate"
+      },
+      {
+        "key": "amount",
+        "label": "Amount"
+      },
+      {
+        "key": "aed",
+        "label": "AED"
+      },
+      {
+        "key": "status",
+        "label": "Status"
+      },
+      {
+        "key": "prvSlashNo",
+        "label": "PrvSlashNo"
+      },
+      {
+        "key": "memoRcvDetId",
+        "label": "MemoRcvDetId"
+      },
+      {
+        "key": "kt",
+        "label": "KT"
+      },
+      {
+        "key": "designNo",
+        "label": "Design No"
+      },
+      {
+        "key": "goldWt",
+        "label": "Gold Wt"
+      },
+      {
+        "key": "grossWt",
+        "label": "Gross Wt"
+      },
+      {
+        "key": "dPcs",
+        "label": "D Pcs"
+      },
+      {
+        "key": "dCrt",
+        "label": "D Crt"
+      },
+      {
+        "key": "csPcs",
+        "label": "CS Pcs"
+      },
+      {
+        "key": "csCrt",
+        "label": "CS Crt"
+      },
+      {
+        "key": "silverWt",
+        "label": "Silver Wt"
+      }
+    ],
+    "rows": [
+      {
+        "slno": 1,
+        "primKey": "JW001",
+        "slashNo": "S/1001",
+        "slashNoCmb": "S/1001",
+        "pieces": 1,
+        "rate": 200,
+        "amount": 200,
+        "aed": 735,
+        "status": "OK",
+        "prvSlashNo": "",
+        "memoRcvDetId": "MRD-1",
+        "kt": "18K",
+        "designNo": "D-23",
+        "goldWt": "7.2",
+        "grossWt": "7.8",
+        "dPcs": "2",
+        "dCrt": "0.05",
+        "csPcs": "6",
+        "csCrt": "0.12",
+        "silverWt": "0.0"
+      }
+    ]
+  },
+  "actions": [
+    "Save",
+    "Search",
+    "Edit",
+    "Delete",
+    "Cancel",
+    "Print",
+    "Print DC",
+    "Print MDC",
+    "Exit",
+    "ASearch",
+    "CopyMemoRecv",
+    "CopyPurch",
+    "GeneratePackingList",
+    "ExportDetails",
+    "Import Quality",
+    "Stock",
+    "ExportQuality",
+    "Documents",
+    "Import Stone",
+    "Copy MemoIssue",
+    "DetailCustomer",
+    "View",
+    "Request",
+    "CopyPurchase",
+    "CpMemoRtn"
+  ],
+  "form": {
+    "productType": "Polish",
+    "memoNo": "MI/2025/001",
+    "throughBy": "Courier",
+    "customer": "ABC Gems",
+    "refNo": "REF-1001",
+    "insuranceBy": "Customer",
+    "memoType": "Memo",
+    "date": "2025-08-01",
+    "brokerName": "John",
+    "dueDays": 15,
+    "dueDate": "2025-08-16",
+    "termCode": "NET15",
+    "chargeOn": "Customer",
+    "salesMan": "Sam",
+    "saleRefNo": "SALE-001",
+    "brokeragePct": 0.5,
+    "currency": "USD",
+    "localBank": "ICICI",
+    "convRate": 83.2,
+    "taxDisc": "NONE",
+    "taxDiscAmt": 0,
+    "qualityGroup": "Diamond",
+    "contactPerson": "Anil",
+    "deliveryPerson": "Raj",
+    "stoneLocation": true,
+    "distCd": "D1",
+    "impRej": false,
+    "bussiness": "Domestic",
+    "image": "",
+    "total": 1875,
+    "remark": "OK",
+    "amount1": 1875,
+    "expRejPct": 1.5,
+    "copyMemoIssue": "",
+    "copyPurchase": "",
+    "cpMemoRtn": "",
+    "detailCustomer": "Details...",
+    "userNameAndDate": "KP / 2025-08-01",
+    "toMemoRecvRefNo": "",
+    "frmMemoRecvRefNo": "",
+    "view": "",
+    "request": "",
+    "documents": "",
+    "importStone": "",
+    "gstDealer": true,
+    "igst": 0,
+    "cgst": 0,
+    "sgst": 0,
+    "cess": 0,
+    "invTotal": 1875,
+    "options": {
+      "productType": [
+        {
+          "value": "Polish",
+          "label": "Polish"
+        },
+        {
+          "value": "Rough",
+          "label": "Rough"
+        }
+      ],
+      "throughBy": [
+        {
+          "value": "Courier",
+          "label": "Courier"
+        },
+        {
+          "value": "Hand",
+          "label": "Hand"
+        }
+      ],
+      "customer": [
+        {
+          "value": "ABC Gems",
+          "label": "ABC Gems"
+        },
+        {
+          "value": "XYZ Diamonds",
+          "label": "XYZ Diamonds"
+        }
+      ],
+      "insuranceBy": [
+        {
+          "value": "Customer",
+          "label": "Customer"
+        },
+        {
+          "value": "Company",
+          "label": "Company"
+        }
+      ],
+      "memoType": [
+        {
+          "value": "Memo",
+          "label": "Memo"
+        },
+        {
+          "value": "Sale",
+          "label": "Sale"
+        }
+      ],
+      "brokerName": [
+        {
+          "value": "John",
+          "label": "John"
+        },
+        {
+          "value": "Priya",
+          "label": "Priya"
+        }
+      ],
+      "termCode": [
+        {
+          "value": "NET15",
+          "label": "NET15"
+        },
+        {
+          "value": "NET30",
+          "label": "NET30"
+        }
+      ],
+      "chargeOn": [
+        {
+          "value": "Customer",
+          "label": "Customer"
+        },
+        {
+          "value": "Company",
+          "label": "Company"
+        }
+      ],
+      "salesMan": [
+        {
+          "value": "Sam",
+          "label": "Sam"
+        },
+        {
+          "value": "Ravi",
+          "label": "Ravi"
+        }
+      ],
+      "currency": [
+        {
+          "value": "USD",
+          "label": "USD"
+        },
+        {
+          "value": "AED",
+          "label": "AED"
+        },
+        {
+          "value": "INR",
+          "label": "INR"
+        }
+      ],
+      "localBank": [
+        {
+          "value": "ICICI",
+          "label": "ICICI"
+        },
+        {
+          "value": "HDFC",
+          "label": "HDFC"
+        }
+      ],
+      "taxDisc": [
+        {
+          "value": "NONE",
+          "label": "NONE"
+        },
+        {
+          "value": "DISCOUNT",
+          "label": "DISCOUNT"
+        }
+      ],
+      "qualityGroup": [
+        {
+          "value": "Diamond",
+          "label": "Diamond"
+        },
+        {
+          "value": "Gem",
+          "label": "Gem"
+        }
+      ],
+      "distCd": [
+        {
+          "value": "D1",
+          "label": "D1"
+        },
+        {
+          "value": "D2",
+          "label": "D2"
+        }
+      ],
+      "bussiness": [
+        {
+          "value": "Domestic",
+          "label": "Domestic"
+        },
+        {
+          "value": "Export",
+          "label": "Export"
+        }
+      ]
+    }
+  }
+}
