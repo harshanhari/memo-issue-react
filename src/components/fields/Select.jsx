@@ -1,15 +1,21 @@
 import React from 'react'
-export default function Select({ label, value, onChange=()=>{}, options=[] }){
+
+export default function Select({ label, value='', onChange=()=>{}, options=[], readOnly=false }) {
   return (
-    <label className="flex flex-col gap-1">
-      <span className="text-sm text-slate-300">{label}</span>
+    <div>
+      <label className="block mb-1 text-slate-700 dark:text-slate-300">{label}</label>
       <select
-        className="w-full px-3 py-2 rounded-2xl bg-slate-900 border focus:outline-none focus:ring-2 focus:ring-accent-600"
-        style={{ borderColor: 'darkslategrey' }}
-        value={value} onChange={e=>onChange(e.target.value)}
+        className="w-full px-3 py-2 rounded border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-slate-100"
+        value={value}
+        onChange={e => onChange(e.target.value)}
+        disabled={readOnly}
       >
-        {options.map(o => <option key={o.value} value={o.value}>{o.label}</option>)}
+        {options.map(opt =>
+          typeof opt === 'object'
+            ? <option key={opt.value || opt.id || opt.label} value={opt.value || opt.id || opt.label}>{opt.label || opt.value || opt.id}</option>
+            : <option key={opt} value={opt}>{opt}</option>
+        )}
       </select>
-    </label>
+    </div>
   )
 }

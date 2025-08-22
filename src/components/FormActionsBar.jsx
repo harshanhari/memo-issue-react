@@ -2,7 +2,7 @@ import React from 'react'
 import { FiSave, FiSearch, FiEdit, FiTrash2, FiX, FiPrinter } from 'react-icons/fi'
 
 const btnClass =
-  "btn btn-square btn-sm flex items-center justify-center rounded-md border-2 border-orange-500 bg-slate-900 text-orange-500 transition-colors duration-200 hover:bg-orange-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-orange-400"
+  "btn btn-square btn-sm flex items-center justify-center rounded-md border-2 border-orange-500 bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-slate-200 transition-colors duration-200 hover:bg-orange-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-orange-400"
 
 export default function FormActionsBar({ onSave, onSearch, onEdit, onDelete, onCancel, onPrint }) {
   return (

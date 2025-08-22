@@ -1,9 +1,16 @@
 import React from 'react'
-export default function Checkbox({ label, checked=false, onChange=()=>{} }){
+
+export default function Checkbox({ label, checked=false, onChange=()=>{}, readOnly=false }) {
   return (
-    <label className="inline-flex items-center gap-2">
-      <input type="checkbox" className="w-4 h-4 rounded bg-slate-900 border-slate-700" checked={checked} onChange={e=>onChange(e.target.checked)} />
-      <span className="text-sm text-slate-300">{label}</span>
-    </label>
+    <div className="flex items-center">
+      <input
+        type="checkbox"
+        className="mr-2 accent-orange-500 bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700"
+        checked={checked}
+        onChange={e => onChange(e.target.checked)}
+        disabled={readOnly}
+      />
+      <label className="text-slate-700 dark:text-slate-300">{label}</label>
+    </div>
   )
 }
